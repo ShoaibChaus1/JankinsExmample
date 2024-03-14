@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginjsp.css">
+    <title>Add Contact</title>
+</head>
+
+<body>
+    <h2 id="greet">Add Contact Details</h2>
+
+    <div id="hr"></div>
+    <din class="container">
+        <section id="left">
+            <div class="options">
+                <ul>
+                    <li><a href="login.jsp">Genral</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Experiance</a></li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section id="right">
+            <div class="details">
+               <form action="addcontact" method="post">
+                <div class="items">
+                    <div class="data">
+                        <div class="lb"><label for="pmid">Personal Email</label></div>
+                        <div class="inp"><input type="email" name="pmid" id="pmid" placeholder="Enter Personal Email" ></div>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="data">
+                        <div class="lb"><label for="cmid">Company Email</label></div>
+                        <div class="inp"><input type="email" name="cmid" id="cmid" placeholder="Enter Company Email" ></div>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="data">
+                        <div class="lb"><label for="phno">Phone NO:</label></div>
+                        <div class="inp"><input type="text" name="phno" id="phno" placeholder="Enter Phone Number" ></div>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <div class="data">
+                        <div class="lb"><label for="aphno" style="font-size: 14px;">Alternative Phone No:</label></div>
+                       <div class="inp"><input type="text" name="aphno" id="aphno" placeholder="Enter Alternative Phone No" ></div>
+                    </div>
+                </div>
+                
+                <div class="items">
+                    <div class="btn">
+                        <input style="padding: 8px 35px;
+    border-radius: 10px;
+    border: 2px solid   rgb(156, 234, 234);
+    box-shadow: 5px 5px 20px rgb(131, 208, 244) ;
+    background-color: rgb(156, 234, 234);" type="submit" value="Add">
+                    </div>
+                </div>
+
+             </form>
+
+            </div>
+        </section>
+
+    </din>
+
+</body>
+
+</html>
